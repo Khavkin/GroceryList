@@ -1,0 +1,32 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Cat 1"
+    },
+    {
+      "id": 2,
+      "name": "Cat 2"
+    },
+    {
+      "name": "Cat 3",
+      "id": 3
+    },
+    {
+      "name": "Cat 4",
+      "id": 4
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "description": "todo 1 Category 1",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "description": "todo 1 Category 2",
+      "categoryId": 2
+    }
+  ]
+}

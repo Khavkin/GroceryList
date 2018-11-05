@@ -1,0 +1,32 @@
+.categoryItem{
+    border: none;
+    background: inherit;
+    width: 100%;
+    padding: 5px 0;
+}
+input{
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    width: 90%;
+    font-weight: inherit;
+    display: block;
+    margin: 0 auto;
+}
+span{
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    width: 90%;
+    font-weight: inherit;
+    display: block;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.selected{
+    background: gray;
+    font-weight: bold;
+}
+
+

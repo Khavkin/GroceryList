@@ -1,0 +1,14 @@
+div{
+    height: 40px;
+    background-color: darkgrey;
+}
+input{
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+input::placeholder{
+    text-align: center;
+}

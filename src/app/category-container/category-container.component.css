@@ -1,0 +1,14 @@
+.categoryContainer {
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryList{
+    flex: 1 0 auto;
+}
+
+.addCategoryPanel{
+    flex: 0 0 auto;
+}

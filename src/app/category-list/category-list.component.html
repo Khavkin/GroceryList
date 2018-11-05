@@ -1,0 +1,5 @@
+<ul onmousedown="return false" onselectstart="return false" >
+  <li *ngFor="let category of categories">
+    <app-category-item #item [category]="category" (click) = "onClick(item)"></app-category-item>
+  </li>
+</ul>

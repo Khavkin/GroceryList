@@ -1,0 +1,21 @@
+.app{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    padding: 0;
+    min-width: 500px;
+    max-width: 700px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.categoryContainer{
+    width: 40%;
+    height: 100%;
+
+}
+
+.todosContainer{
+    width: 60%;
+    height: 100%;
+}

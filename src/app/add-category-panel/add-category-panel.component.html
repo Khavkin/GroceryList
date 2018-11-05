@@ -1,0 +1,9 @@
+<mat-form-field appearance="outline" class="addCategoryPanel">
+    <input #newCategory matInput placeholder="Add List" type="text" class="example-right-align" 
+          (keyup.enter)="onEnter(newCategory)"
+          (keyup.esc)="newCategory.value=''">
+    <mat-icon matPrefix disabled>add_circle</mat-icon>
+</mat-form-field>
+
+
+  
